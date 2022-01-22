@@ -100,11 +100,11 @@
                 </div>
 
                 <label class="label-checkbox">
-                  <input class="checkbox" type="checkbox" name="polisy" value=" " /><span
-                    class="polisy-text"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a class="link-polisy" href="">Условия договора</a></span
-                  >
+                  <input class="checkbox is-hidden" type="checkbox" name="polisy" value=" " /><span
+                    class="icon-check"
+                  ></span
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a class="link-polisy" href="">Условия договора</a>
                 </label>
                 <button class="form-btn" type="submit">Отправить</button>
               </form>
@@ -447,17 +447,16 @@
             </li>
           </ul>
         </div>
-        <div class="subscription">
-          <form action="#">
-            <p class="text-footer">Подпишитесь на рассылку</p>
+        <div class="">
+          <p class="text-subscription">Подпишитесь на рассылку</p>
+          <form action="#" class="subscription">
             <input class="footer-input" type="mail" name="e-mail" placeholder="E-mail" />
 
             <button class="btn btn-footer" type="submit">
-              Подписаться<span class="icon-svg">
-                <svg class="icon-send">
-                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
-                </svg>
-              </span>
+              Подписаться
+              <svg class="icon-send" wight="32" height="32">
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>
